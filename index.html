@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  
 </head>
 <body>
-    <script>
-        
-    </script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <h1 class="text-center">Rock Paper Scissors</h1>
+    <h4 class="text-center">First to five win!</h4>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 text-center">
+                <h2>Human</h2>
+                <p id="result-human"></p>
+                <button id="rock" value="Rock">Rock</button>
+                <button id="scissors" value="Scissors">Scissors</button>
+                <button id="paper" value="Paper">Paper</button>
+            </div>
+            <div class="col-md-2 text-center">
+                <p id="winner"></p>
+            </div>
+            <div class="col-md-5 text-center">
+                <h2>Machine</h2>
+                <p id="result-machine"></p>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="script.js"></script>
 </body>
 </html>
